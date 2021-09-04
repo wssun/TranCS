@@ -6,7 +6,7 @@ import numpy as np
 from dataset_utils import PAD_ID, UNK_ID, EOS_ID, pre_block
 
 
-class ODeepCSDataset(data.Dataset):
+class TranCSDataset(data.Dataset):
 
     def __init__(self, config, data_dir, is_train, f_trans, max_tran_len, max_tran_seq_len,
                  max_tran_block_len, f_docs, max_doc_len):
