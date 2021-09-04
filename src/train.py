@@ -111,7 +111,7 @@ def train(args):
 
 
 def parse_args():
-    parser = argparse.ArgumentParser("Train and Validate The ODeepCS Model")
+    parser = argparse.ArgumentParser("Train and Validate The TranCS Model")
     parser.add_argument('--data_path', type=str, default='../../src/dataset/')
     parser.add_argument('--model', type=str, default='TranEmbeder')
     parser.add_argument('--dataset', type=str, default='TranCS_dataset')
