@@ -18,6 +18,14 @@ The original dataset can be downloaded from [https://github.com/github/CodeSearc
 ```shell
 python process_dataset/generate_from_jsonl.py
 ```
+3. convert instruction to translation 
+```shell
+python process_instruction/instruction2tran.py
+```
+4. run the preprocessing code
+```shell
+python src/dataset_utils.py
+```
 
 ## Baseline
 ## Train
@@ -36,10 +44,6 @@ python baseline_methods/MMAN/test.py
 We provide TranCS model and raw data processing code which are listed in src/ and process_instruction/ directories.
 
 ## Running the Model
-### Convert Instruction to Translation 
-```shell
-python process_instruction/instruction2tran.py
-```
 ### Train the Model
 ```shell
 python src/train.py
