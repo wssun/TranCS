@@ -33,14 +33,12 @@ def config_TranEmbeder():
         'n_doc_words': 10000,
         'n_tran_doc_words': 15000,
 
-        'dataset_name': 'ODeepCSDataset',
+        'dataset_name': 'TranCSDataset',
         'train_tran': 'train_tran.h5',
-        'train_token': 'train_token.h5',
         'train_doc': 'train_doc.h5',
 
         'test_tran': 'test_tran.h5',
-        'test_token': 'test_token_2.h5',
-        'test_doc': 'test_doc_2.h5',
+        'test_doc': 'test_doc.h5',
 
         'n_epoch': 200,
         'learning_rate': 0.0003,
