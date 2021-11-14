@@ -30,13 +30,12 @@ python src/dataset_utils.py
 ## Baseline
 DeepCS: [https://github.com/guxd/deep-code-search](https://github.com/guxd/deep-code-search)  
 MMAN: [https://github.com/wanyao1992/mman_public](https://github.com/wanyao1992/mman_public)
-## Train
+### Train
 ```shell
 python baseline_methods/DeepCS/train.py
 python baseline_methods/MMAN/train.py
 ```
-
-## Test
+### Test
 ```shell
 python baseline_methods/DeepCS/test.py
 python baseline_methods/MMAN/test.py
@@ -44,8 +43,6 @@ python baseline_methods/MMAN/test.py
 
 ## TranCS
 We provide TranCS model and raw data processing code which are listed in src/ and process_instruction/ directories.
-
-## Running the Model
 ### Train the Model
 ```shell
 python src/train.py
